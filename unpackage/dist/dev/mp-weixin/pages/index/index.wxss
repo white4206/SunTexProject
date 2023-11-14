@@ -1,0 +1,97 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+page,
+.root {
+  background-color: #F2F3F5;
+}
+page .container .swiper-box,
+.root .container .swiper-box {
+  margin-top: 20rpx;
+  width: 750rpx;
+  height: 300rpx;
+  border-radius: 30rpx;
+}
+page .container .swiper-box .swiper-item,
+.root .container .swiper-box .swiper-item {
+  text-align: center;
+}
+page .container .swiper-box .swiper-item image,
+.root .container .swiper-box .swiper-item image {
+  border-radius: 30rpx;
+  width: 710rpx;
+  height: 300rpx;
+}
+page .service-list,
+.root .service-list {
+  margin: 50rpx 20rpx;
+}
+page .service-list .membranes-area,
+.root .service-list .membranes-area {
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+  margin-bottom: 20rpx;
+  box-shadow: 0 0 20rpx 0 rgba(0, 0, 0, 0.1);
+}
+page .service-list .membranes-area .title,
+.root .service-list .membranes-area .title {
+  margin-bottom: 20rpx;
+}
+page .service-list .membranes-area .membranes,
+.root .service-list .membranes-area .membranes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+page .service-list .membranes-area .membranes .membrane-item,
+.root .service-list .membranes-area .membranes .membrane-item {
+  flex: 0 0 25%;
+  text-align: center;
+  font-size: 28rpx;
+}
+page .service-list .membranes-area .membranes .membrane-item .membrane-item-image image,
+.root .service-list .membranes-area .membranes .membrane-item .membrane-item-image image {
+  border-radius: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+page .service-list .carService-area,
+.root .service-list .carService-area {
+  margin-bottom: 50rpx;
+  background-color: #337ecc;
+  background-image: linear-gradient(90deg, #337ecc 0%, #79bbff 100%);
+  border-radius: 20rpx;
+  box-shadow: 0 0 20rpx 0 rgba(0, 0, 0, 0.1);
+}
+page .service-list .carService-area .carServiceItems,
+.root .service-list .carService-area .carServiceItems {
+  border-radius: 20rpx;
+  background-color: #ffffff;
+  padding: 20rpx;
+}
+page .service-list .carService-area .carServiceItems .title,
+.root .service-list .carService-area .carServiceItems .title {
+  margin-bottom: 20rpx;
+}
+page .service-list .carService-area .carServiceItems .carServiceItem,
+.root .service-list .carService-area .carServiceItems .carServiceItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+page .service-list .carService-area .carServiceItems .carServiceItem .carServiceItem-content,
+.root .service-list .carService-area .carServiceItems .carServiceItem .carServiceItem-content {
+  flex: 0 0 30%;
+  text-align: center;
+}
+page .service-list .carService-area .carServiceItems .carServiceItem .carServiceItem-content .content-image image,
+.root .service-list .carService-area .carServiceItems .carServiceItem .carServiceItem-content .content-image image {
+  border-radius: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+page .service-list .carService-area .carServiceItems .carServiceItem .content-text,
+.root .service-list .carService-area .carServiceItems .carServiceItem .content-text {
+  font-size: 28rpx;
+}

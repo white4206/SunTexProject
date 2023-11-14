@@ -1,0 +1,49 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  height: 30px;
+  padding-bottom: 10px;
+}
+.custom-navbar .back-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 30px;
+  width: 85px;
+  border-radius: 20px;
+}
+.custom-navbar .back-box .back {
+  display: flex;
+  align-items: center;
+}
+.custom-navbar .back-box .back .back-image {
+  width: 20px;
+}
+.custom-navbar .back-box .divider {
+  margin: 0 10px;
+  width: 1px;
+  height: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.custom-navbar .back-box .backHome {
+  display: flex;
+  align-items: center;
+}
+.custom-navbar .back-box .backHome .backHome-image {
+  width: 20px;
+}
+.custom-navbar .title {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "vk-data-goods-sku-popup": "../../components/vk-data-goods-sku-popup/vk-data-goods-sku-popup"
+  }
+}

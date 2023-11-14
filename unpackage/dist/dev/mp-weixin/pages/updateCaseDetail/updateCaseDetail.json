@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "案例详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-title": "../../uni_modules/uni-title/components/uni-title/uni-title",
+    "custom-navbar": "../../components/CustomNavbar/CustomNavbar"
+  }
+}

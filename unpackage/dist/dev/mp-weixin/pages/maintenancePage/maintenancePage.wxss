@@ -1,0 +1,107 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+page,
+.root {
+  background-color: #F2F3F5;
+}
+.container .addYourCar-box {
+  padding: 20rpx;
+  padding-bottom: 0;
+}
+.container .addYourCar-box .addYourCar {
+  padding: 40rpx;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+}
+.container .addYourCar-box .addYourCar .yourCar {
+  display: flex;
+  align-items: center;
+  color: #A8ABB2;
+  margin-bottom: 10rpx;
+}
+.container .addYourCar-box .addYourCar .yourCar image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+.container .addYourCar-box .toAdd {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+.container .addYourCar-box .toAdd image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.container .maintenanceItems {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  margin: 20rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+.container .maintenanceItems .maintenanceItem {
+  flex: 0 0 25%;
+  text-align: center;
+  font-size: 28rpx;
+}
+.container .maintenanceItems .maintenanceItem .maintenanceItem-image image {
+  border-radius: 30rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.container .divider-text {
+  text-align: center;
+  font-size: 40rpx;
+  color: #337ecc;
+  font-weight: bold;
+}
+.container .recommendedItems {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20rpx;
+}
+.container .recommendedItems .recommendedItem {
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-bottom: 10rpx;
+  flex: 0 0 45%;
+}
+.container .recommendedItems .recommendedItem .recommendedItem-image {
+  border-radius: 20rpx;
+  width: 345rpx;
+}
+.container .recommendedItems .recommendedItem .recommendedItem-image image {
+  border-radius: 20rpx;
+  width: 345rpx;
+  height: 345rpx;
+}
+.container .recommendedItems .recommendedItem .recommendedItem-desc {
+  padding: 20rpx;
+}
+.container .recommendedItems .recommendedItem .recommendedItem-desc .goods-title {
+  font-size: 28rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.container .recommendedItems .recommendedItem .recommendedItem-desc .goods-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #cf4444;
+}
+.container .recommendedItems .recommendedItem .recommendedItem-desc .goods-price text:nth-child(2) {
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #A8ABB2;
+}

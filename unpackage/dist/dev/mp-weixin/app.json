@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/shopcart/shopcart",
+    "pages/user/user",
+    "pages/membraneCategory/membraneCategory",
+    "pages/membraneGoods/membraneGoods",
+    "pages/goodsDetail/goodsDetail",
+    "pages/updateCategory/updateCategory",
+    "pages/updateDetail/updateDetail",
+    "pages/updateCaseDetail/updateCaseDetail",
+    "pages/maintenancePage/maintenancePage",
+    "pages/addYourCarPage/addYourCarPage",
+    "pages/maintenanceGoods/maintenanceGoods",
+    "pages/JustForTest/JustForTest"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "圣科旗舰店",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "selectedColor": "#337ecc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车",
+        "iconPath": "static/images/shopcart.png",
+        "selectedIconPath": "static/images/shopcart_selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

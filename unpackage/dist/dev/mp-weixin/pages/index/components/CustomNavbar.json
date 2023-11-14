@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-title": "../../../uni_modules/uni-title/components/uni-title/uni-title",
+    "uni-search-bar": "../../../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "膜类分类页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-search-bar": "../../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "custom-navbar": "../../components/CustomNavbar/CustomNavbar"
+  }
+}

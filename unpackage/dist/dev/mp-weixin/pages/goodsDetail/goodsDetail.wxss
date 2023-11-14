@@ -1,0 +1,182 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+page,
+.root {
+  background-color: #F2F3F5;
+}
+.container .swiper-box {
+  width: 750rpx;
+  height: 750rpx;
+}
+.container .swiper-box .swiper-item image {
+  width: 750rpx;
+  height: 750rpx;
+}
+.container .goods-info {
+  padding: 20rpx;
+  background-color: #FFFFFF;
+  margin-bottom: 20rpx;
+}
+.container .goods-info .price {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #cf4444;
+  margin-bottom: 20rpx;
+}
+.container .service-box {
+  margin-bottom: 20rpx;
+  background-color: #FFFFFF;
+}
+.container .service-box .service-item {
+  display: flex;
+}
+.container .service-box .service-item .item-name {
+  padding: 20rpx;
+  width: 100rpx;
+  color: #909399;
+}
+.container .service-box .service-item .item-content {
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650rpx;
+}
+.container .service-box .service-item .item-content text {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.container .service-box .service-item .item-content image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.container .service-box .service-item .servicePopup {
+  border-radius: 20rpx 20rpx 0 0;
+  background-color: #ffffff;
+}
+.container .service-box .service-item .servicePopup .service-title {
+  padding-top: 20rpx;
+  text-align: center;
+}
+.container .service-box .service-item .servicePopup .service-content {
+  padding: 40rpx;
+  font-size: 28rpx;
+}
+.container .service-box .service-item .servicePopup .service-content .service-content-item .title {
+  margin-bottom: 20rpx;
+}
+.container .service-box .service-item .servicePopup .service-content .service-content-item .content {
+  color: #909399;
+}
+.container .service-box .service-item .servicePopup .closePopup {
+  padding: 20rpx;
+}
+.container .service-box .service-item .servicePopup .closePopup button {
+  color: #ffffff;
+  font-size: 28rpx;
+  border-radius: 200rpx;
+  background-color: #337ecc;
+  background-image: linear-gradient(90deg, #337ecc 0%, #79bbff 100%);
+}
+.container .service-box .service-item .addToShopCartPopup {
+  border-radius: 20rpx 20rpx 0 0;
+  background-color: #ffffff;
+}
+.container .service-box .service-item .addToShopCartPopup .addToShopCart-title {
+  padding-top: 20rpx;
+  text-align: center;
+}
+.container .service-box .service-item .addToShopCartPopup .addToShopCart-content {
+  padding: 40rpx;
+  font-size: 28rpx;
+}
+.container .service-box .service-item .addToShopCartPopup .addToShopCart-content .addToShopCart-content-item .title {
+  margin-bottom: 20rpx;
+}
+.container .service-box .service-item .addToShopCartPopup .addToShopCart-content .addToShopCart-content-item .content {
+  color: #909399;
+}
+.container .service-box .service-item .addToShopCartPopup .closePopup {
+  padding: 20rpx;
+}
+.container .service-box .service-item .addToShopCartPopup .closePopup button {
+  color: #ffffff;
+  font-size: 28rpx;
+  border-radius: 200rpx;
+  background-color: #337ecc;
+  background-image: linear-gradient(90deg, #337ecc 0%, #79bbff 100%);
+}
+.instruction-box {
+  padding-bottom: 120rpx;
+}
+.instruction-box .instruction {
+  background-color: #FFFFFF;
+}
+.instruction-box .instruction .instruction-item {
+  display: flex;
+}
+.instruction-box .instruction .instruction-item .item-name {
+  padding: 20rpx;
+  width: 100rpx;
+  color: #909399;
+}
+.instruction-box .instruction .instruction-item .item-content {
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650rpx;
+}
+.instruction-box .instruction .instruction-item .item-content text {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.instruction-box .instruction .instruction-item .item-content image {
+  width: 25rpx;
+  height: 25rpx;
+}
+.instruction-box .instructionPopup {
+  border-radius: 20rpx 20rpx 0 0;
+  background-color: #ffffff;
+}
+.instruction-box .instructionPopup .instruction-title {
+  padding-top: 20rpx;
+  text-align: center;
+}
+.instruction-box .instructionPopup .instruction-content {
+  padding: 40rpx;
+  font-size: 28rpx;
+}
+.instruction-box .instructionPopup .instruction-content .instruction-content-item .title {
+  margin-bottom: 20rpx;
+}
+.instruction-box .instructionPopup .instruction-content .instruction-content-item .content {
+  color: #909399;
+}
+.instruction-box .instructionPopup .closePopup {
+  padding: 20rpx;
+}
+.instruction-box .instructionPopup .closePopup button {
+  color: #ffffff;
+  font-size: 28rpx;
+  border-radius: 200rpx;
+  background-color: #337ecc;
+  background-image: linear-gradient(90deg, #337ecc 0%, #79bbff 100%);
+}
+.footer .goods-carts {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  left: var(--window-left);
+  right: var(--window-right);
+  bottom: 0;
+}

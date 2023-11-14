@@ -1,0 +1,48 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+.vk-data-input-number-box.data-v-223c2f5d {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.u-number-input.data-v-223c2f5d {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid #f4f4f4;
+  border-left: 0;
+  border-right: 0;
+  box-sizing: border-box;
+}
+.u-icon-plus.data-v-223c2f5d,
+.u-icon-minus.data-v-223c2f5d {
+  width: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2rpx solid #f4f4f4;
+  box-sizing: border-box;
+}
+.u-icon-plus.data-v-223c2f5d {
+  border-radius: 0 8rpx 8rpx 0;
+}
+.u-icon-minus.data-v-223c2f5d {
+  border-radius: 8rpx 0 0 8rpx;
+}
+.u-icon-disabled.data-v-223c2f5d {
+  color: #c8c9cc !important;
+  background-color: #f2f3f5 !important;
+}
+.u-input-disabled.data-v-223c2f5d {
+  color: #c8c9cc !important;
+  background-color: #f2f3f5 !important;
+}
+.num-btn.data-v-223c2f5d {
+  font-weight: 550;
+  line-height: 50rpx;
+}

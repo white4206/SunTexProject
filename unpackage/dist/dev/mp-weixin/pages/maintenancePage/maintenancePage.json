@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "维修保养专区",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-navbar": "../../components/CustomNavbar/CustomNavbar"
+  }
+}

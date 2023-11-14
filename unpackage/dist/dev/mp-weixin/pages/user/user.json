@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "用户中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

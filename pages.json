@@ -1,0 +1,144 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shopcart/shopcart",
+      "style": {
+        "navigationBarTitleText": "购物车",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "用户中心",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/membraneCategory/membraneCategory",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "膜类分类页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/membraneGoods/membraneGoods",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "膜类商品页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/goodsDetail/goodsDetail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "商品详情页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/updateCategory/updateCategory",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "改装分类页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/updateDetail/updateDetail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "改装详情页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/updateCaseDetail/updateCaseDetail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "案例详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/maintenancePage/maintenancePage",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "维修保养专区",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/addYourCarPage/addYourCarPage",
+      "style": {
+        "navigationBarTitleText": "我的车辆",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/maintenanceGoods/maintenanceGoods",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "商品详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/JustForTest/JustForTest",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+    "selectedColor": "#337ecc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车",
+        "iconPath": "static/images/shopcart.png",
+        "selectedIconPath": "static/images/shopcart_selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user_selected.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "圣科旗舰店",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}

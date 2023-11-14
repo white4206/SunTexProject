@@ -1,0 +1,20 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+page,
+.root {
+  background-color: #F2F3F5;
+}
+.container .head {
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.container .content {
+  margin: 20rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+}
+.container .content .medium {
+  text-align: center;
+}

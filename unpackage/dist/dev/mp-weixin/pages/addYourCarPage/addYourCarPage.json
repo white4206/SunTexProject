@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的车辆",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-indexed-list": "../../uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list",
+    "uni-data-picker": "../../uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-card": "../../uni_modules/uni-card/components/uni-card/uni-card"
+  }
+}
